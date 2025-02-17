@@ -691,7 +691,7 @@
             function construir_ficha(type, inscripcion) {
                 try {
                     let data = JSON.parse(inscripcion);
-                    console.log("Datos de inscripción:", data);
+                    //console.log("Datos de inscripción:", data);
 
                     if (typeof JsBarcode === "undefined") {
                         throw new Error("JsBarcode no está definido. Verifica que el script se haya cargado.");
